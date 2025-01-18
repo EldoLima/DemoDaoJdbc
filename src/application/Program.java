@@ -61,6 +61,20 @@ public class Program {
 		
 		System.out.println(seller);
 		
+		System.out.println("\n=== TESTE 6: Seller deleteById");
+		
+		seller = sellerDao.findById(2);
+		System.out.println(seller);
+		sellerDao.deleById(2);
+		
+		
+		sellerDao.findAll();
+		for(Seller obj: list) {
+			System.out.println(obj);
+		}
+		
+
+		
 	}
 
 }
