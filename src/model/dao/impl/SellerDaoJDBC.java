@@ -59,7 +59,7 @@ public class SellerDaoJDBC implements SellerDao{
 
 			}
 			else {
-				throw new DbException("unexpedted eroor! No rows affected!");
+				throw new DbException("unexpedted error! No rows affected!");
 			}
 
 			

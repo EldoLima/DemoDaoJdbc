@@ -58,7 +58,6 @@ public class Program {
 		
 		seller.setName("Eldo");
 		sellerDao.insert(seller);
-		
 		System.out.println(seller);
 		
 		System.out.println("\n=== TESTE 6: Seller deleteById");
